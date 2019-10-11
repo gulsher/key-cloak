@@ -30,3 +30,32 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar{
+  background-color: #2196f3;
+  height: 100vh;
+}
+.sidebar ul {
+  padding: 0;
+  margin:0;
+  list-style: none;
+}
+.sidebar ul li {
+  text-align: center;
+  color: white;
+  text-transform : capitalize;
+  padding: 10px 35px;
+}
+
+.right-bar{
+  padding: 10px 50px;
+}
+
+.UserInfo {
+  background-color: #f44336;
+  width: 500px;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 1px solid red;
+}

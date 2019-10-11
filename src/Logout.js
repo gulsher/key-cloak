@@ -10,7 +10,7 @@ class Logout extends Component {
 
     render() {
         return (
-            <button onClick={ () => this.logout() }>
+            <button className="btn btn-primary  mt-4" onClick={ () => this.logout() }>
                 Logout
             </button>
         );
