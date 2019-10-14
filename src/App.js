@@ -13,10 +13,14 @@ class App extends Component {
             <div className="col-2 sidebar">
               <ul>
                 <li>
-                  <Link to="/"className="text-white" >public component</Link>
+                  <Link to="/" className="text-white">
+                    public component
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/secured" className="text-white">secured component</Link>
+                  <Link to="/secured" className="text-white">
+                    secured component
+                  </Link>
                 </li>
               </ul>
             </div>
