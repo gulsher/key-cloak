@@ -3,6 +3,7 @@ import Keycloak from "keycloak-js";
 import UserInfo from "./UserInfo";
 import Logout from "./Logout";
 
+
 class Secured extends Component {
   constructor(props) {
     super(props);

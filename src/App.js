@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Welcome from "./Welcome";
 import Secured from "./Secured";
+import Manager from "./Manager";
 import "./App.css";
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
             <div className="col-10 right-bar">
               <Route exact path="/" component={Welcome} />
               <Route path="/secured" component={Secured} />
+              <Route exact path="/manager" component={Manager} />
             </div>
           </div>
         </div>
